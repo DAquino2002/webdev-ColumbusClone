@@ -1,4 +1,7 @@
 /* CSS code  */
+body{
+    margin:0px;
+}
 #navbar{
     background-color: #10243B;
     margin: 0px;
@@ -12,13 +15,15 @@ li{
     display: inline;
     padding: 10px;
     font-family: 'Open sans', sans-serif;
-    color: white;
-    font-size: 19px;
+    
+    font-size: 16px;
     position: relative;
     margin: 0px;
     text-align: center;
     vertical-align: middle;
     line-height: 45px; 
+    text-transform: uppercase;
+    font-weight: bold;
     
 }
 ul{
@@ -30,14 +35,29 @@ ul{
 #rightlist{
     float: right;
     position: relative;
+    color: lightblue;
     
 }
 #leftlist{
     float: left;
     position: relative;
+    color: white;
     
 
 }
 #marist{
     float: left;
+}
+#hero{
+    background-image: url(images/graduation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+#heroText{
+    font-family: 'Open sans', sans-serif;
+    font-size:30px;
+    color: white;
+    
 }
