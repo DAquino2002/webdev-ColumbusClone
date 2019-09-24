@@ -1,1 +1,43 @@
 /* CSS code  */
+#navbar{
+    background-color: #10243B;
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+    overflow: hidden;
+    position: relative;
+    
+}
+li{
+    display: inline;
+    padding: 10px;
+    font-family: 'Open sans', sans-serif;
+    color: white;
+    font-size: 19px;
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px; 
+    
+}
+ul{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 45px;
+}
+#rightlist{
+    float: right;
+    position: relative;
+    
+}
+#leftlist{
+    float: left;
+    position: relative;
+    
+
+}
+#marist{
+    float: left;
+}
