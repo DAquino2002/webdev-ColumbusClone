@@ -110,7 +110,39 @@ ul{
     padding-bottom: 10px;
 }
 #exploresection{
-    width: 25%;
-    height: 320;
-    background-image: url(images/)
+    width: 100vw;
+    height: 500px;
+    
 }
+.explorebox{
+    width: 25%;
+    height:500px;
+    float: left;
+}
+#hurricane{
+    background-image: url(images/patriots\ plaza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#guidance{
+    background-image: url(images/college.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#ccnn{
+    background-image: url(images/ccnn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#media{
+    background-image: url(images/ccnn\ live.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+
