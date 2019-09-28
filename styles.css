@@ -92,7 +92,7 @@ ul{
 }
 #explorercchs{
     width: 100vw;
-    height: 400px;
+    height: 500px;
 }
 #explorerhead{
     width: 100vw;
@@ -111,12 +111,12 @@ ul{
 }
 #exploresection{
     width: 100vw;
-    height: 500px;
+    height: 420px;
     
 }
 .explorebox{
     width: 25%;
-    height:500px;
+    height:inherit;
     float: left;
 }
 #hurricane{
