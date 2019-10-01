@@ -6,6 +6,7 @@
 body{
     margin:0px;
 }
+/* --------------- navbar --------------*/
 #navbar{
     background-color: #10243B;
     margin: 0px;
@@ -53,6 +54,7 @@ ul{
 #marist{
     float: left;
 }
+/* --------------- hero section --------------*/
 #hero{
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/fans.jpg);
     background-size: cover;
@@ -90,6 +92,7 @@ ul{
     margin-top: 0px;
     text-shadow: 0px 2px 3px #333333;
 }
+/* --------------- explore section --------------*/
 #explorercchs{
     width: 100vw;
     height: 500px;
@@ -143,6 +146,65 @@ ul{
     background-repeat: no-repeat;
    
 }
+/* --------------- at a glance --------------*/
 
-
+#underSection{
+    height: 800px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100vw;
+}
+#containerunder{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+#glanceHead h2{
+    padding-top: 30px;
+    color: #00344C;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-family: 'Open sans', sans-serif;
+    
+}
+.underglance{
+    width: 297px;
+    height: 432px;
+    text-align: center;
+    
+}
+.underglance li {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    padding-top:30px;
+}
+.underimg{
+    width: 282px;
+    height: 287px;
+    margin-bottom: 30px;
+    display: block;
+    list-style: none;
+}
+#red{
+    font-size: 1.875em;
+    color: #ca0d33;
+    font-family: 'Open sans', sans-serif;
+}
+#money{
+    float: left;
+    
+}
+#grad{
+    float: left;
+    
+}
+#book{
+    float: left;
+    
+}
+#ratio{
+    float: left;
+}
 
