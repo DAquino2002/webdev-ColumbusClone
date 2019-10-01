@@ -149,9 +149,9 @@ ul{
 /* --------------- at a glance --------------*/
 
 #underSection{
-    height: 800px;
+    height: 650px;
     padding-top: 30px;
-    padding-bottom: 20px;
+    
     width: 100vw;
 }
 #containerunder{
@@ -207,4 +207,69 @@ ul{
 #ratio{
     float: left;
 }
+#smallBlue{
+    height: 83px;
+    width: 1045px;
+    background-color: #10243B;
+    text-align: center;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 20px;
+    background-image:url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
+    padding-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#colleges{
+    padding-top: 50px;
+    background-color: #ffffff;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg3.png);
+    border-top: 1px solid #dfd2b0;
+    border-bottom: 1px solid #dfd2b0;
+    height: 269px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#colleges h2{
+    margin-bottom: 10px;
+}
+.collegeimg{
+    width: 270px;
+    height: 128px;
+    margin-left: 100px;
+}
+#mit{
+    background-image: url(images/mit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+#um{
+    background-image: url(images/um.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+#wf{
+    background-image: url(images/wakeforest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+#ncu{
+    background-image: url(images/northcarolina.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+#yale{
+    background-image: url(images/yale.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+
 
