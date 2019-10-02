@@ -272,4 +272,38 @@ ul{
     float: left;
 }
 
+/* ------------ Second Navbar -------------*/
+#secondNav{
+   
+        background-color: #10243B;
+        padding: 0px;
+        border: 0px;
+        overflow: hidden;
+        position: relative;
+        background-image:url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
+    
+}
+#lisecondnav{
+    display: inline;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    position: relative;
+    line-height: 45px; 
+    text-transform: uppercase;
+    color: lightblue;
+    margin-left: 250px;
+    
+    float: left;
+    
+    
+}
+#icons li{
+    float: left;
+}
+#icons img{
+   color: lightblue;
+}
+
 
