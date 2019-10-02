@@ -10,7 +10,7 @@ body{
 #navbar{
     background-color: #10243B;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     border: 0px;
     overflow: hidden;
     position: relative;
@@ -35,25 +35,45 @@ ul{
     border: 0;
     height: 45px;
 }
+
 #rightlist{
-    float: right;
+    float: left;
     position: relative;
     color: lightblue;
     
     
     
 }
+#new{
+    float: right;
+    background-color: #005983;
+    color: white;
+}
+.borderline{
+    border-right: 1px solid white;
+    padding: px;
+}
 #leftlist{
     float: left;
     position: relative;
     color: white;
     font-weight: bold;
+    margin-right: 300px;
     
 
 }
 #marist{
     float: left;
 }
+#bluebox{
+    
+    background-color: #005983;
+    
+
+}
+
+
+
 /* --------------- hero section --------------*/
 #hero{
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/fans.jpg);
@@ -294,16 +314,87 @@ ul{
     text-transform: uppercase;
     color: lightblue;
     margin-left: 250px;
-    
     float: left;
     
     
 }
 #icons li{
     float: left;
+    padding-left: 30px;
 }
-#icons img{
-   color: lightblue;
+#smallAbove{
+    
+    width:100vw;
+    height: 45px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(images/fans.jpg);
+
 }
+#rightlist li: :nth-child(5){
+    
+        background: #005983;
+        color: #ffffff;
+      
+}
+
+/*------------- Footer ----------*/
+
+#footer{
+    background-color: #333333;
+    width: 100vw;
+    height: 312px;
+    
+    
+
+}
+#topFoot p{
+    float:left;
+    line-height: 45px; 
+    margin-bottom: 50px;
+    letter-spacing: .05em;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top:10px;
+}
+#bottomfoot p{
+    float: left;
+    font-style: italic;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 100px;
+    opacity: .5;
+    font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    color: white;
+    
+}
+#secondbottom p{
+    float: left;
+    font-style: italic;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    
+    opacity: .5;
+    font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    color: white;
+    
+}
+#bottomimg{
+    margin-right: 250px;
+}
+
+
+
+
+
+
 
 
